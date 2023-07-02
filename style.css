@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+   
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+h4{
+    text-align: center;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ img{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
